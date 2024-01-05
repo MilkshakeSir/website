@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Short Aspect',
   tagline: 'We are open?',
-  favicon: 'img/favicon.ico',
-
+  favicon: 'favicon.ico',
+  staticDirectories: ["static/data"],
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -73,7 +73,7 @@ const config = {
       navbar: {
         title: 'Short Aspect',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Short-Aspect-Logo-Simple',
           src: 'img/icon.svg',
         },
         items: [
